@@ -1,0 +1,67 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+a {
+    font-size: 30pt;
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.SoloPic {
+    border-radius: 10%;
+    max-height: 500px;
+    max-width: 500px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 85px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-family: 'Allura'; 
+    text-align: right;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+hr {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.navbar {
+    font-size: 20px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+nav {
+    text-align: right;
+}
+
+.pBio {
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: double 5px;
+    border-radius: 10px;
+    border-color: blue;
+    margin-left: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    background-color: slategray;
+    color: white;
+}
