@@ -20,3 +20,8 @@ h1 {
     float: left;
     margin-left: 50px;
 }
+
+.name {
+    font-size: 100px;
+    text-emphasis: bold;
+}
