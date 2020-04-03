@@ -21,6 +21,7 @@ h1 {
     margin-left: 50px;
     margin-top: 15px;
     margin-right: 50px;
+    margin-bottom: 15px;
 }
 
 .name {
@@ -50,8 +51,11 @@ nav {
     text-align: right;
 }
 
-p {
-    font-size: 20px;
+.pBio {
+    font-size: 30px;
     padding-left: 40px;
     padding-right: 10px;
+    border: 3px;
+    border-radius: 5%;
+    border-color: black;
 }
