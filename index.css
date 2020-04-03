@@ -4,7 +4,9 @@ body {
 }
 
 a {
-    font-size: 16pt;
+    font-size: 30pt;
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
