@@ -6,7 +6,7 @@ export class headNav extends LitElement {
         return html`
         <span>
             <p class ="name">
-                Lab Lineup
+                Lab Lineup   
             </p>
         </span>
         <hr>
