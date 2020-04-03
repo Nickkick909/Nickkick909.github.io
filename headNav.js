@@ -1,4 +1,4 @@
-import { LitElement , html } from 'node_modules/lit-element/lit-element.js';
+import { LitElement , html } from '../node_modules/lit-element/lit-element.js';
 
 export class headNav extends LitElement {
 
