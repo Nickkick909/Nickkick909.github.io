@@ -2,8 +2,10 @@ import { LitElement , html } from './node_modules/lit-element/lit-element';
 
 export class headNav extends LitElement {
 
+
     render() {
         return html`
+        <head><link rel="stylesheet" href="css/index.css"></head>
         <span>
             <p class ="name">
                 Lab Lineup
@@ -25,4 +27,4 @@ export class headNav extends LitElement {
     }
 }
 
-customElements.define('headNav', headNav);
+customElements.define('head-nav', headNav);
