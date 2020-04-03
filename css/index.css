@@ -52,12 +52,16 @@ nav {
 }
 
 .pBio {
-    font-size: 30px;
-    margin-left: 20px;
-    padding-left: 20px;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: double 5px;
+    border-radius: 10px;
+    border-color: blue;
+    margin-left: 500px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin-right: 10px;
-    padding-right: 10px;
-    border: 3px;
-    border-radius: 5%;
-    border-color: black;
+    background-color: slategray;
+    color: white;
 }
