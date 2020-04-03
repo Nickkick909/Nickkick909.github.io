@@ -1,4 +1,4 @@
-import { LitElement , html } from '/node_modules/';
+import { LitElement , html } from './node_modules/lit-element/lit-element';
 
 export class headNav extends LitElement {
 
@@ -6,7 +6,7 @@ export class headNav extends LitElement {
         return html`
         <span>
             <p class ="name">
-                Lab Lineup   
+                Lab Lineup
             </p>
         </span>
         <hr>
