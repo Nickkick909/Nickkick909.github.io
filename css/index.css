@@ -23,7 +23,11 @@ h1 {
 
 .name {
     font-size: 100px;
-    text-emphasis: bold;
+    color: white;
     margin-top: 2px;
     margin-bottom: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: right;
+    text-shadow: yellow;
+    text-shadow: 5px;
 }
