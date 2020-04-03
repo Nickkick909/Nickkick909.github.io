@@ -53,7 +53,9 @@ nav {
 
 .pBio {
     font-size: 30px;
-    padding-left: 40px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 10px
     padding-right: 10px;
     border: 3px;
     border-radius: 5%;
