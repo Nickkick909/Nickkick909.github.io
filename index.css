@@ -1,3 +1,7 @@
 body {
-    background-color: lightblue;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+a {
+    font-size: 16pt;
 }
