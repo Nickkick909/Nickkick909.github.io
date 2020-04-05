@@ -1,0 +1,46 @@
+img {
+    height: 500px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.buttonL {
+    height: 500px;
+    margin-top: 0px;
+    position: absolute;
+    left:0%;
+    color:gray;
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+}
+.buttonR {
+    height: 500px;
+    margin-top: 0px;
+    position: absolute;
+    right: 0%;
+    color:gray;
+    background-color: transparent;
+    border:none;
+    font-size: 25px;
+    float: right;
+}
+div {
+    position: relative;
+
+}
+*:focus {
+    outline: 0;
+}
+
+.info {
+    color: white;
+    width:40%;
+    font-size: 20px;
+    float: left;
+    border: double;
+    background-color:blue;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top:100px;
+    padding: 15px;
+}
