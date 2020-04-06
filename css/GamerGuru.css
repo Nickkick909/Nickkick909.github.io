@@ -1,23 +1,23 @@
 img {
-    height: 500px;
+    width: 70%;
     vertical-align: middle;
     border-radius: 10px;
 }
 .buttonL {
-    height: 500px;
+    height: 100%;
     margin-top: 0px;
     position: absolute;
-    left:0%;
+    left:15%;
     color:gray;
     background-color: transparent;
     border:none;
     font-size: 25px;
 }
 .buttonR {
-    height: 500px;
+    height: 100%;
     margin-top: 0px;
     position: absolute;
-    right: 0%;
+    right: 15%;
     color:gray;
     background-color: transparent;
     border:none;
@@ -26,7 +26,9 @@ img {
 }
 div {
     position: relative;
-
+    width: 40%;
+    float:right;
+    margin-right: 10%;
 }
 *:focus {
     outline: 0;
