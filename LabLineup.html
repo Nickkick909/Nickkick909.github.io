@@ -4,9 +4,11 @@
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/LabLineup.css">
         <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+        <script type="text/javascript" src="LabLineup.js"></script>
+
         <!-- <script type="module" src="./headNav.js"></script> -->
     </head>
-    <body>
+    <body  onload="nextImg()">
         <!-- <head-nav></head-nav>
         <script type="module" src="./headNav.js"></script> -->
         <span>
@@ -21,7 +23,7 @@
             <a class ="navbar" href="PacmanProjects.html">Pacman Projects</a> |
             <a class ="navbar" href="GamerGuru.html">Gamer Guru</a> |
             <a class ="navbar" href="DodgeCar.html">Dodge Car</a> |
-            <a class ="navbar" href="Pong.html">Pong</a> |
+            <a class ="navbar" href="Pong.html">Pong</a>
     
         </nav>
 
@@ -35,8 +37,15 @@
         
         <!-- <button onclick="window.location.href='https://www.lablineup.com'" target="_blank">Lab Lineup</button> -->
         <form action="https://www.lablineup.com/" method="get" target="_blank">
-            <button type="submit">Current Release</button>
-         </form>
+            <button class="release" type="submit">Current Release</button>
+        </form>
+
+        <div>
+            <button class = "buttonL" onclick="lastImg()"><</button>
+            <button class="buttonR" onclick="nextImg()">></button>
+            <img id="pics">
+            
+        </div>
         <!-- <a href="https://www.lablineup.com" target="_blank">Here is a link to the lasted deployment.</a> -->
     </body>
     

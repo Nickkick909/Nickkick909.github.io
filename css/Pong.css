@@ -10,11 +10,10 @@
 }
 
 .game {
-    float: right;
-    width: 45%;
+    
+    /* width: 45%; */
     margin-top: 15px;
-    margin-right:20px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 15px;
 }
 
