@@ -1,6 +1,7 @@
 body {
-    background-color: cornflowerblue;
+    background: radial-gradient(at top right, darkblue 35%, blue, lightblue,skyblue);
     text-align: center;
+    height: 100%;
 }
 
 a {
@@ -68,15 +69,16 @@ nav {
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7.5px;
+    background: linear-gradient(darkblue, blue, skyblue);
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     background: skyblue;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-radius: 20px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
     }
   
   /* Handle */
