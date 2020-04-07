@@ -2,7 +2,8 @@ body {
     background: radial-gradient(circle at top right, darkblue 17%, blue 25%, lightblue,skyblue);
     text-align: center;
     background-repeat: no-repeat;
-    background-size: 100% 250%;
+    background-size: 100% 2000px;
+    background-color: skyblue;
 }
 
 a {
@@ -44,6 +45,9 @@ h1 {
     text-align: right;
     margin-right: 20px;
     margin-left: auto;
+    background: linear-gradient(to bottom right, white 50%, darkblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 hr {
@@ -116,3 +120,7 @@ nav {
   ::-webkit-scrollbar-thumb:hover {
     background: darkblue;
   }
+
+  *:focus {
+    outline: 0;
+}
