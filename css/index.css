@@ -1,13 +1,23 @@
 body {
-    background: radial-gradient(at top right, darkblue 35%, blue, lightblue,skyblue);
+    background: radial-gradient(circle at top right, darkblue 17%, blue 25%, lightblue,skyblue);
     text-align: center;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 250%;
 }
 
 a {
     font-size: 30pt;
     text-decoration: none;
     color: black;
+    padding-left: 10px;
+    padding-right: 10px
+
+}
+
+a:hover {
+    background-color: skyblue;
+    border-radius: 15px;
+    color: darkblue;
 }
 
 h1 {
@@ -44,12 +54,27 @@ hr {
 .navbar {
     font-size: 20px;
     color: white;
-    margin-right: 5px;
-    margin-left: 5px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
+    margin-left:0px;
+    margin-right:0px;
+
+    transition: color 1s;
+    transition: background-color 1s;
+    transition: border-radius 1s;
+
+
 }
 
 nav {
     text-align: right;
+    color:white;
+    font-size: 20px;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left:0px;
+    padding-right:0px;
+
 }
 
 .pBio {
