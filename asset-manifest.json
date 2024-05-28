@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.037ae024.css",
+    "main.js": "/static/js/main.f1b6a521.js",
+    "static/css/245.3f6212d5.chunk.css": "/static/css/245.3f6212d5.chunk.css",
+    "static/js/245.83419671.chunk.js": "/static/js/245.83419671.chunk.js",
+    "static/js/453.32bc8d24.chunk.js": "/static/js/453.32bc8d24.chunk.js",
+    "static/media/IPhone7.png": "/static/media/IPhone7.a7bc29e54f41468e7b67.png",
+    "static/media/ipad.jpg": "/static/media/ipad.09252b9b471c97f37826.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/tablet.svg": "/static/media/tablet.4253bd4f8a4c78223cf287956dbed358.svg",
+    "static/media/mobile.svg": "/static/media/mobile.a99e6b132870ab51a538a6c4f9c5de88.svg",
+    "index.html": "/index.html",
+    "static/media/rotate.svg": "/static/media/rotate.be7cf75f7d3c28007d864601b4b37bb1.svg",
+    "main.037ae024.css.map": "/static/css/main.037ae024.css.map",
+    "main.f1b6a521.js.map": "/static/js/main.f1b6a521.js.map",
+    "245.3f6212d5.chunk.css.map": "/static/css/245.3f6212d5.chunk.css.map",
+    "245.83419671.chunk.js.map": "/static/js/245.83419671.chunk.js.map",
+    "453.32bc8d24.chunk.js.map": "/static/js/453.32bc8d24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.037ae024.css",
+    "static/js/main.f1b6a521.js"
+  ]
+}
