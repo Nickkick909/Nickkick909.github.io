@@ -11,11 +11,13 @@ const MainLayout = ({ children }) => {
     return (
         <>
         <Box className="header" onClick={goHome}>
-            <div class="headerName">
+            <div className="headerName">
                 Nicholas Knight
             </div>
 
-            <div className='naviationLinks'>
+            <div class="tagLine">Full Time Software Engineer / Aspiring Game Developer</div>
+
+            {/* <div className='naviationLinks'>
                 <div>
                     Projects
                 </div>
@@ -25,7 +27,7 @@ const MainLayout = ({ children }) => {
                 <div>
                     Career
                 </div>
-            </div>
+            </div> */}
         </Box>
 
         <Box className="non-header">
