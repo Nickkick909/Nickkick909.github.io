@@ -10,7 +10,7 @@
 
 # production
 /build
-
+*/Build
 # misc
 .DS_Store
 .env.local
@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+public/OtterAdventures/Build/OtterAdventures.data
+public/OtterAdventures/Build/OtterAdventures.framework.js
+public/OtterAdventures/Build/OtterAdventures.symbols.json
+public/OtterAdventures/Build/OtterAdventures.wasm

@@ -67,7 +67,7 @@ function Projects() {
 
             <br></br><br></br>
 
-            The majority of my at-home projects are built in Unity using C#. Most of them are solo projects. Where possible, I have built them games to WebGL and embedded them below in a playable state. I hope you enjoy!!
+            The majority of my at-home projects are built in Unity using C#. Most of them are solo projects. Where possible, I have built the games to WebGL and embedded them below in a playable state. I hope you enjoy!!
 
             <br></br><br></br>
 
