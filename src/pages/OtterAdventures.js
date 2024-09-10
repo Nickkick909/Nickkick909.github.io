@@ -55,7 +55,7 @@ function OtterAdventures() {
               Otter Adventures
             </div>
             <div className="wip">
-              **Work In Progres**
+              **Work In Progress**
             </div>
             <div className="description">
               Otter Adventures is my current project. The idea is to be a Pokemon style game where the main character is an otter. You will go around the world and fight other river animals. You will level up and increase your stats and learn new attacks.

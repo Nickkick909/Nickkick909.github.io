@@ -71,7 +71,7 @@ code {
   font-size: 18px;
 }
 .about {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 16px;
   margin: 0 auto;
   display: flex;
@@ -153,4 +153,57 @@ code {
   background-color: #2a4084;
   box-shadow: 0 0 10px 1px black;
   margin-bottom: 8px;
+}
+
+.unityBadge {
+  height: 240px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px black;
+  margin-top: 32px;
+}
+
+.firstSection, .secondSection {
+  margin-bottom: 64px;
+}
+.firstSection {
+  text-align: left;
+  padding-right: 200px;
+}
+
+.secondSection {
+  text-align: center;
+  /* padding-left: 200px; */
+  width: 765px;
+
+}
+
+.eduHeader {
+  margin-top: 24px;
+}
+
+.ucuVideo {
+  height: 315px;
+  width: 560px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.ucuProof {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  padding: 32px 64px;
+}
+
+.educationTitle {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.unityCertifiedUser {
+  margin-top: 64px;
 }
