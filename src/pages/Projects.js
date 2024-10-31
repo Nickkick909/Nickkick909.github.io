@@ -12,7 +12,7 @@ import {  useNavigate } from 'react-router-dom';
 //   Modal
 // } from '@mui/material';
 
-
+import GraveyardShift from "./GraveyardShift";
 import OtterAdventures from "./OtterAdventures";
 import DodgeCar from "./DodgeCar";
 import Pong from "./Pong";
@@ -123,6 +123,8 @@ function Projects() {
 
 
           <div class="headerLabel">My Projects</div>
+
+          <GraveyardShift></GraveyardShift>
           <OtterAdventures></OtterAdventures>
 
           <DodgeCar></DodgeCar>
