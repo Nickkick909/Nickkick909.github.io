@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.03adda40.css",
-    "main.js": "/static/js/main.196e16c2.js",
+    "main.js": "/static/js/main.230734ec.js",
     "static/css/836.44310059.chunk.css": "/static/css/836.44310059.chunk.css",
-    "static/js/836.c6d08d6a.chunk.js": "/static/js/836.c6d08d6a.chunk.js",
+    "static/js/836.1aff78c5.chunk.js": "/static/js/836.1aff78c5.chunk.js",
     "static/js/453.32bc8d24.chunk.js": "/static/js/453.32bc8d24.chunk.js",
     "static/media/IPhone7.png": "/static/media/IPhone7.a7bc29e54f41468e7b67.png",
     "static/media/ipad.jpg": "/static/media/ipad.09252b9b471c97f37826.jpg",
@@ -13,13 +13,13 @@
     "index.html": "/index.html",
     "static/media/rotate.svg": "/static/media/rotate.be7cf75f7d3c28007d864601b4b37bb1.svg",
     "main.03adda40.css.map": "/static/css/main.03adda40.css.map",
-    "main.196e16c2.js.map": "/static/js/main.196e16c2.js.map",
+    "main.230734ec.js.map": "/static/js/main.230734ec.js.map",
     "836.44310059.chunk.css.map": "/static/css/836.44310059.chunk.css.map",
-    "836.c6d08d6a.chunk.js.map": "/static/js/836.c6d08d6a.chunk.js.map",
+    "836.1aff78c5.chunk.js.map": "/static/js/836.1aff78c5.chunk.js.map",
     "453.32bc8d24.chunk.js.map": "/static/js/453.32bc8d24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03adda40.css",
-    "static/js/main.196e16c2.js"
+    "static/js/main.230734ec.js"
   ]
 }
