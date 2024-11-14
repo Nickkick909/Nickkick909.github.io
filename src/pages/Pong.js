@@ -221,16 +221,12 @@ function Pong() {
             We all had to start somewhere. The first every game I made was following along to a YouTube tutorial for Pong. This is built in vanilla JavaScript and HTML (now adapted to run inside of React). 
             
             <br></br><br></br>
-            Note: The mouse math was originally built for this to be the only game on the page, so its a little tricky, make sure you are scrolled all the way down.
+            Note: The mouse math was originally built for this to be the only game on the page, so its a little tricky, make sure you are scrolled all the way down for best results.
           </div>
           
 		
 			<canvas id ="gameCanvas" width="800" height="600" class="game"></canvas>
 
-			{/* <script type="javascript">
-				
-
-			</script> */}
       </div>
     
     );

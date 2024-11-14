@@ -75,8 +75,8 @@ code {
   padding: 16px;
   margin: 0 auto;
   display: flex;
-  margin-bottom: 48px;
-  text-align: center;
+  margin-bottom: 16px;
+  /* text-align: center; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -156,27 +156,18 @@ code {
 }
 
 .unityBadge {
-  height: 240px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px 1px black;
-  margin-top: 32px;
+  /* margin-top: 32px; */
+  justify-self: center;
+  align-self: center;
 }
 
 .firstSection, .secondSection {
-  margin-bottom: 64px;
-}
-.firstSection {
-  text-align: left;
-  padding-right: 200px;
-}
-
-.secondSection {
-  text-align: center;
-  /* padding-left: 200px; */
-  width: 765px;
-
+  margin-bottom: 16px;
 }
 
 .eduHeader {
@@ -184,8 +175,8 @@ code {
 }
 
 .ucuVideo {
-  height: 315px;
-  width: 560px;
+  height: 250px;
+  width: 400px;
   border-radius: 10px;
   box-shadow: 0 0 10px 1px black;
 }
@@ -206,4 +197,58 @@ code {
 
 .unityCertifiedUser {
   margin-top: 64px;
+}
+
+
+.leftAndRight {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  justify-content: center;
+  /* max-width: 900px; */
+  margin: 0 64px;
+}
+
+.leftSide, .rightSide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.leftSide {
+  width: 65%;
+  text-align: center;
+}
+
+.rightSide {
+  width: 35%;
+}
+
+@media (max-width: 1350px) {
+  .leftAndRight {
+    flex-wrap: wrap;
+  }
+
+  .ucuProof {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.leftSide, .rightSide {
+  width: 100%;
+}
+
+.linkToDownload {
+  color: white;
+  cursor: pointer;
+  font-size: 42px;
+  margin: 16px auto;
+  height: 64px;
+}
+
+.linkToDownload:hover {
+  color: grey;
+  font-size: 48px;
 }
