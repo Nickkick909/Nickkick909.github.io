@@ -15,7 +15,7 @@ function ProjectSurvival() {
 
               <br></br><br></br>
 
-              Stick around for more updates. I have SO many ideas for this game!!
+              Stick around for more updates. I have SOOOO many ideas for this game!!
             </div>
 
             
