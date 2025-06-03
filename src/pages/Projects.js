@@ -12,10 +12,12 @@ import {  useNavigate } from 'react-router-dom';
 //   Modal
 // } from '@mui/material';
 
+import OtterOnslaught from "./OtterOnslaught"
 import GraveyardShift from "./GraveyardShift";
 import OtterAdventures from "./OtterAdventures";
 import DodgeCar from "./DodgeCar";
 import Pong from "./Pong";
+import ProjectSurvival from "./ProjectSurvival";
 
 // import {
 //   User,
@@ -42,10 +44,10 @@ function Projects() {
     }, []);
 
     function showEmail() {
-      if (email == "-- email address hidden --") {
+      if (email == "-- click to reveal email --") {
         setEmail("nrknight909@gmail.com")
       } else {
-        setEmail("-- email address hidden --")
+        setEmail("-- click to reveal email --")
       }
     }
 
@@ -69,19 +71,25 @@ function Projects() {
             <div class="leftAndRight">
               <div class="leftSide">
               <div class="headerLabel">About Me</div>
-                <div class="secondSection">
-                  I am a full time Software Engineer with four years of industry experience.
-                  <br></br><br></br>
-                  In my free time I create small game projects to learn, build my skills, and most importantly, have fun.
-                  
-                  <br></br><br></br>
-                  
-                  Below you will find some of these projects. I hope you enjoy!!
 
-                  <br></br><br></br>
-
-                  If my projects or skills are something you are looking for, please reachout to me at <br></br><div onClick={showEmail} className="hiddenEmail">{email}</div>.
+              <div class="aboutText">
+                <div class="firstSection">
+                  I am a full time Software Engineer with five years of industry experience building web applications (server-side and user interfaces). 
                 </div>
+                <div class="secondSection">
+                  Outside of the office I have a passion for creating small game projects to challenge myself, build my skills, and have fun while doing it.
+                  
+                </div>
+                <div class="firstSection">
+                  Below you will find some of my projects. I hope you enjoy!!
+                </div>
+
+                <div class="lastSection">
+
+                  If my projects are something you are interested in, please reachout to me at <br></br><div onClick={showEmail} className="hiddenEmail">{email}</div>.
+                </div>
+              </div>
+                
                 
                 
 
@@ -125,7 +133,7 @@ function Projects() {
               </div>
 
               <div class="rightSide">
-                <object data="Nicholas-Knight-Game-Development-Resume.pdf" type="application/pdf" height="680px" width= '530px'></object>
+                <object data="Nicholas-Knight-Software-Engineer.pdf" type="application/pdf" height="700px" width= '500px'></object>
               </div>
             </div>
             
@@ -148,12 +156,24 @@ function Projects() {
 
 
           <div class="headerLabel">My Projects</div>
+          
+          <div class="projects">
+            <ProjectSurvival></ProjectSurvival>
 
-          <GraveyardShift></GraveyardShift>
-          <OtterAdventures></OtterAdventures>
+            <OtterOnslaught></OtterOnslaught>
 
-          <DodgeCar></DodgeCar>
+            <GraveyardShift></GraveyardShift>
 
+            <div>
+            <OtterAdventures></OtterAdventures>
+
+<DodgeCar></DodgeCar> 
+            </div>
+            
+
+
+          </div>
+          
           <Pong></Pong>
       </div>
     

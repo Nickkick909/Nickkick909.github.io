@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.playGame img {
+  width: 773px;
+}
+
+.playGame {
+  height:540px;
+}

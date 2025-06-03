@@ -109,6 +109,7 @@ code {
 
   background-color: #2a4084;
 }
+
 .otterAdventures {
   width: 768px;
   height: 432px;
@@ -167,9 +168,23 @@ code {
 }
 
 .firstSection, .secondSection {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
+  width: 520px
 }
 
+.firstSection {
+  text-align: left;
+}
+
+.secondSection {
+  text-align: right;
+}
+
+.lastSection {
+  text-align: center;
+  margin-top: 8px;
+  width: 520px;
+}
 .eduHeader {
   margin-top: 24px;
 }
@@ -217,7 +232,6 @@ code {
   flex-wrap: wrap;
 }
 .leftSide {
-  width: 65%;
   text-align: center;
 }
 
@@ -236,9 +250,9 @@ code {
   }
 }
 
-.leftSide, .rightSide {
+/* .leftSide, .rightSide {
   width: 100%;
-}
+} */
 
 .linkToDownload {
   color: white;
@@ -251,4 +265,30 @@ code {
 .linkToDownload:hover {
   color: grey;
   font-size: 48px;
+}
+
+.disabled {
+  cursor: not-allowed;
+  color: grey;
+  font-size: 42px;
+  margin: 16px auto;
+  height: 64px;
+}
+
+.aboutText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  gap: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.oosImg {
+  height: 348px;
 }
