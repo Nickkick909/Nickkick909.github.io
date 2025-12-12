@@ -18,6 +18,8 @@ import OtterAdventures from "./OtterAdventures";
 import DodgeCar from "./DodgeCar";
 import Pong from "./Pong";
 import ProjectSurvival from "./ProjectSurvival";
+import Deadline from "./Deadline"
+import DeadlineHero from "./DeadlineHero";
 
 // import {
 //   User,
@@ -68,26 +70,43 @@ function Projects() {
             
 
             {/* <br></br><br></br> */}
+
+            <DeadlineHero></DeadlineHero>
             <div class="leftAndRight">
               <div class="leftSide">
-              <div class="headerLabel">About Me</div>
+
+                
+              
+              </div>
+
+              {/* <div class="rightSide"> */}
+              <div>
+                {/* <object data="Nicholas-Knight-Software Engineer.pdf" type="application/pdf" height="700px" width= '500px'></object> */}
+              
+              
+                <div class="headerLabel">About Me</div>
+
+<div class="aboutSection">
+
 
               <div class="aboutText">
                 <div class="firstSection">
-                  I am a full time Software Engineer with five years of industry experience building web applications (server-side and user interfaces). 
+                 I'm a full-time Software Engineer with five years of experience building web applications. 
+                 
+                 <br></br><br></br>Outside of work, I create small game projects to experiment, challenge myself, and explore ideas in Unity. <br></br><br></br>Below you'll find some of my favorite projects — enjoy exploring!
                 </div>
-                <div class="secondSection">
+                {/* <div class="secondSection">
                   Outside of the office I have a passion for creating small game projects to challenge myself, build my skills, and have fun while doing it.
                   
                 </div>
-                <div class="firstSection">
-                  Below you will find some of my projects. I hope you enjoy!!
-                </div>
-
                 <div class="lastSection">
+                  Below you will find some of my projects. I hope you enjoy!!
+                </div> */}
+
+                {/* <div class="lastSection">
 
                   If my projects are something you are interested in, please reachout to me at <br></br><div onClick={showEmail} className="hiddenEmail">{email}</div>.
-                </div>
+                </div> */}
               </div>
                 
                 
@@ -99,41 +118,39 @@ function Projects() {
                   }
                 </div> */}
 
-<div className="headerLabel eduHeader">Education</div>
+              {/* <div className="headerLabel eduHeader">Education</div> */}
 
-<div className="education">
+              <div className="education">
 
-    <div class="usc">
-      <div className="educationTitle">
-        University of South Carolina
-      </div>
-      <div class="uscTitle">
-        Bachelors of Science in Computer Science
-      </div>
-      
-    </div>
+                  {/* <div class="usc">
+                    <div className="educationTitle">
+                      University of South Carolina
+                    </div>
+                    <div class="uscTitle">
+                      Bachelors of Science in Computer Science
+                    </div>
+                    
+                  </div> */}
 
-    <div className="unityCertifiedUser">
-      <div className="educationTitle">Unity Certified User: Programmer</div>
+                  <div className="unityCertifiedUser">
+                    <div className="educationTitle">Unity Certified User: Programmer</div>
 
-      <div className="ucuProof">
-        
+                    <div className="ucuProof">
+                      
 
-        <div className="ucuVideo">
-        <iframe width="400" height="250" src="https://www.youtube.com/embed/-ygNxblOhqs?si=kS0aoMStpIgL9Kx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+                      <div className="ucuVideo">
+                      <iframe width="400" height="250" src="https://www.youtube.com/embed/-ygNxblOhqs?si=kS0aoMStpIgL9Kx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      </div>
 
-        <iframe name="acclaim-badge" allowtransparency="true" frameborder="0" id="embedded-badge-1a5ef923-37ce-4917-9160-abdf87f94750" scrolling="no" src="https://www.credly.com/embedded_badge/1a5ef923-37ce-4917-9160-abdf87f94750" className="unityBadge" title="View my verified achievement on Credly."></iframe>
-      </div>
+                      <iframe name="acclaim-badge" allowtransparency="true" frameborder="0" id="embedded-badge-1a5ef923-37ce-4917-9160-abdf87f94750" scrolling="no" src="https://www.credly.com/embedded_badge/1a5ef923-37ce-4917-9160-abdf87f94750" className="unityBadge" title="View my verified achievement on Credly."></iframe>
+                    </div>
 
-      
-    </div>
-      
-  </div>
+                    
+                  </div>
+                    
+                </div>
               </div>
 
-              <div class="rightSide">
-                <object data="Nicholas-Knight-Software-Engineer.pdf" type="application/pdf" height="700px" width= '500px'></object>
               </div>
             </div>
             
@@ -157,22 +174,32 @@ function Projects() {
 
           <div class="headerLabel">My Projects</div>
           
-          <div class="projects">
-            <ProjectSurvival></ProjectSurvival>
+          <div className="projectsGrid">
+            <div class="projects">
+              <Deadline></Deadline>
+              
+              
+              <OtterOnslaught></OtterOnslaught>
 
-            <OtterOnslaught></OtterOnslaught>
+              
 
-            <GraveyardShift></GraveyardShift>
+              <OtterAdventures></OtterAdventures>
 
-            <div>
-            <OtterAdventures></OtterAdventures>
+              
 
-<DodgeCar></DodgeCar> 
+
             </div>
-            
 
+            <div class="projects">
+              <ProjectSurvival></ProjectSurvival>
+                
+            <GraveyardShift></GraveyardShift>
+              
 
+              <DodgeCar></DodgeCar> 
+            </div>
           </div>
+          
           
           <Pong></Pong>
       </div>

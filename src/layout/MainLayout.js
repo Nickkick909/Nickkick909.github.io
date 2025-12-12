@@ -9,7 +9,8 @@ const MainLayout = ({ children }) => {
         navigate('/');
     }
     return (
-        <>
+        <div id="noise-overlay">
+        
         <Box className="header" onClick={goHome}>
             <div className="headerName">
                 Nicholas Knight
@@ -37,7 +38,7 @@ const MainLayout = ({ children }) => {
                 {children}
             </Box>
         </Box>
-        </>
+        </div>
     );
 }; 
 

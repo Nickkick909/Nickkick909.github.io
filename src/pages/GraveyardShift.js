@@ -1,7 +1,19 @@
 import React from "react";
+import Slider from "@ant-design/react-slick";
+
 
 function GraveyardShift() {
-    
+    var settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    cssEase: "linear"
+  };
     return (
         <div className="">
           
@@ -22,17 +34,23 @@ function GraveyardShift() {
               Will you survive to see the morning?
             </div>
 
-            <a class="linkToDownload" href="https://nrknight.itch.io/graveyard-shift"> -- Download Graveyard Shift --</a>
+            <iframe className="embedGame" frameborder="0" src="https://itch.io/embed/3095545?border_width=0&amp;bg_color=122157&amp;fg_color=fff&amp;link_color=2a4084&amp;border_color=3e4d83" width="616" height="165"><a href="https://nrknight.itch.io/graveyard-shift">Graveyard Shift by Nicholas Knight</a></iframe>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/9Tev5gxs49M?si=q4g0dXyWjElGMMyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <Slider {...settings} className="videoSlider">
+              <div>
+                <iframe width="616" height="346.5" src="https://www.youtube.com/embed/9Tev5gxs49M?si=q4g0dXyWjElGMMyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kz2xt0Ko7A?si=EaUp2Ej4pdugRpUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nF22zePkRQs?si=5KqnjX-m_ZcEKEXD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div>
+                <iframe width="616" height="346.5" src="https://www.youtube.com/embed/7Kz2xt0Ko7A?si=EaUp2Ej4pdugRpUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              
+              <div>
+                <iframe width="616" height="346.5" src="https://www.youtube.com/embed/nF22zePkRQs?si=5KqnjX-m_ZcEKEXD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </Slider>
 
-            
-            {/* <iframe frameborder="0" src="https://itch.io/embed-upload/11940073?color=333333" allowfullscreen="" width="768" height="432"><a href="https://nrknight.itch.io/graveyard-shift">Play Graveyard Shift on itch.io</a></iframe> */}
-            {/* <iframe frameborder="0" src="https://itch.io/embed-upload/11528371?color=122157" allowfullscreen="" width="960" height="560"><a href="https://nrknight.itch.io/otter-adventures">Play Otter Adventures on itch.io</a></iframe> */}
           </div>
       </div>
     

@@ -9,6 +9,10 @@ function ProjectSurvival() {
             <div className="label">
               Project Survival
             </div>
+            
+            <div className="wip">
+              **Unfinished**
+            </div>
 
             <div className="description">
               Project Survival is my latest obsession, and it is very early in development. It will be a survival game where you are a contestant on a "Netflix" survival competition. You will be attempting to survive longer than your competition, and there will even be challenges along the way to reward (or punish) you to add a little bit of spice.
@@ -21,8 +25,6 @@ function ProjectSurvival() {
             
 
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Vu7duszAD-g?si=p5S-HK1I9Zrb-zK-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            <a class="disabled" href="https://nrknight.itch.io/" aria-disabled> -- Download Coming Soon --</a>
 
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/7Kz2xt0Ko7A?si=EaUp2Ej4pdugRpUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
